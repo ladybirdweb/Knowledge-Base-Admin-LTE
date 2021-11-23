@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Developers Documentation | FAVEO</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css" />
+    <!-- Ionicons -->
+    <link
+      rel="stylesheet"
+      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css"
+    />
+    <!-- iCheck -->
+    <link
+      rel="stylesheet"
+      href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css"
+    />
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="../plugins/jqvmap/jqvmap.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../dist/css/adminlte.min.css" />
+    <!-- overlayScrollbars -->
+    <link
+      rel="stylesheet"
+      href="../plugins/overlayScrollbars/css/OverlayScrollbars.min.css"
+    />
+    <!-- Daterange picker -->
+    <link
+      rel="stylesheet"
+      href="../plugins/daterangepicker/daterangepicker.css"
+    />
+    <!-- summernote -->
+    <link
+      rel="stylesheet"
+      href="../plugins/summernote/summernote-bs4.min.css"
+    />
+    <!-- Custom -->
+    <link rel="stylesheet" href="../dist/css/developersdocumentation.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <header role="banner" class="site-header layout-two">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+              <img src="../dist/images/faveo.png" alt="" class="img-fluid" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Installation Manual</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">User Manual </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Forums </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="live-search">
+            <form class="input-group input-group-sm">
+              <input
+                class="form-control form-control-navbar"
+                type="search"
+                placeholder="Have a question? Ask or enter a search term."
+                aria-label="Search"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </header>
+      <!-- END Header -->
+
+      <!-- Top Section -->
+      <div class="content-header layout-two">
+        <div class="container">
+          <br />
+          <div class="breadcrumb-top">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">
+                <a href="#">Documentation</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <!-- END Top Section -->
+
+      <!-- Main Content Wrapper -->
+      <div class="main-content-wrapper">
+        <div class="container">
+          <div class="layout-two">
+            <div class="row">
+              <div class="col-md-8">
+                <!-- Left Section -->
+                <article>
+                  <div class="knowledgebase-widget-wrapper">
+                    <header id="page-header">
+                      <h2 class="page-title">Article Categories</h2>
+                    </header>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="card card-widget">
+                          <div
+                            class="card-header"
+                            style="
+                              border-bottom: solid 2px rgba(47, 64, 233, 1);
+                            "
+                          >
+                            <h3
+                              class="card-title"
+                              style="color: rgba(47, 64, 233, 1)"
+                            >
+                              <a
+                                href="#"
+                                title=""
+                                style="color: rgba(47, 64, 233, 1)"
+                              >
+                                <i class="far fa-folder-open mr-2"></i> Core
+                              </a>
+                              <span class="cat-count ml-2">
+                                <i class="far fa-hdd fa-fw"></i>
+                                (1)
+                              </span>
+                            </h3>
+                          </div>
+                          <ul class="nav flex-column">
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Cron Command development</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card card-widget">
+                          <div
+                            class="card-header"
+                            style="
+                              border-bottom: solid 2px rgba(47, 64, 233, 1);
+                            "
+                          >
+                            <h3
+                              class="card-title"
+                              style="color: rgba(47, 64, 233, 1)"
+                            >
+                              <a
+                                href="#"
+                                title=""
+                                style="color: rgba(47, 64, 233, 1)"
+                              >
+                                <i class="far fa-folder-open mr-2"></i> Forms
+                              </a>
+                              <span class="cat-count ml-2">
+                                <i class="far fa-hdd fa-fw"></i>
+                                (1)
+                              </span>
+                            </h3>
+                          </div>
+                          <ul class="nav flex-column">
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Faveo Forms API Field</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- END Widget -->
+                      <div class="col-md-6">
+                        <div class="card card-widget">
+                          <div
+                            class="card-header"
+                            style="
+                              border-bottom: solid 2px rgba(47, 64, 233, 1);
+                            "
+                          >
+                            <h3
+                              class="card-title"
+                              style="color: rgba(47, 64, 233, 1)"
+                            >
+                              <a
+                                href="#"
+                                title=""
+                                style="color: rgba(47, 64, 233, 1)"
+                              >
+                                <i class="far fa-folder-open mr-2"> </i>Event
+                              </a>
+                              <span class="cat-count ml-2">
+                                <i class="far fa-hdd fa-fw"></i> (4)
+                              </span>
+                            </h3>
+                          </div>
+                          <ul class="nav flex-column">
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">List of injectable divs</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=" "
+                                >List of frontend events on which faveo
+                                reacts</a
+                              >
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=""
+                                >List of frontend events dispatched by faveo</a
+                              >
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=""
+                                >List of backend events dispatched by Faveo</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card card-widget">
+                          <div
+                            class="card-header"
+                            style="
+                              border-bottom: solid 2px rgba(47, 64, 233, 1);
+                            "
+                          >
+                            <h3
+                              class="card-title"
+                              style="color: rgba(47, 64, 233, 1)"
+                            >
+                              <a
+                                href="#"
+                                title=""
+                                style="color: rgba(47, 64, 233, 1)"
+                              >
+                                <i class="far fa-folder-open mr-2"> </i>Helpdesk
+                              </a>
+                              <span class="cat-count ml-2">
+                                <i class="far fa-hdd fa-fw"></i> (28)
+                              </span>
+                            </h3>
+                          </div>
+                          <ul class="nav flex-column">
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Changing Password</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=" "
+                                >Update Auto Assign Settings</a
+                              >
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=""
+                                >Get Auto Assign Settings Details</a
+                              >
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Update Ticket Type</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Create Ticket Type</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- END Widget -->
+                      <div class="col-md-6">
+                        <div class="card card-widget">
+                          <div
+                            class="card-header"
+                            style="
+                              border-bottom: solid 2px rgba(47, 64, 233, 1);
+                            "
+                          >
+                            <h3
+                              class="card-title"
+                              style="color: rgba(47, 64, 233, 1)"
+                            >
+                              <a
+                                href="#"
+                                title=""
+                                style="color: rgba(47, 64, 233, 1)"
+                              >
+                                <i class="far fa-folder-open mr-2"></i>External
+                                API
+                              </a>
+                              <span class="cat-count ml-2">
+                                <i class="far fa-hdd fa-fw"></i>(78)
+                              </span>
+                            </h3>
+                          </div>
+                          <ul class="nav flex-column">
+                            <li>
+                              <i class="far fa-folder mr-2"></i>
+                              <a href="#" title="">Plugins</a>
+                            </li>
+                            <li>
+                              <i class="far fa-folder mr-2"></i>
+                              <a href="#" title="">Servicedesk</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Create Ticket V3</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=""
+                                >How to pass OAuth2 token in API version 3</a
+                              >
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Response Formats</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Common Errors</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Knowledge base API’s</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- END Widget -->
+                      <div class="col-md-6">
+                        <div class="card card-widget">
+                          <div
+                            class="card-header"
+                            style="
+                              border-bottom: solid 2px rgba(47, 64, 233, 1);
+                            "
+                          >
+                            <h3
+                              class="card-title"
+                              style="color: rgba(47, 64, 233, 1)"
+                            >
+                              <a
+                                href="#"
+                                title=""
+                                style="color: rgba(47, 64, 233, 1)"
+                              >
+                                <i class="far fa-folder-open mr-2"></i>Internal
+                                API
+                              </a>
+                              <span class="cat-count ml-2">
+                                <i class="far fa-hdd fa-fw"></i>(166)
+                              </span>
+                            </h3>
+                          </div>
+                          <ul class="nav flex-column">
+                            <li>
+                              <i class="far fa-folder mr-2"></i>
+                              <a href="#" title="">Helpdesk</a>
+                            </li>
+                            <li>
+                              <i class="far fa-folder mr-2"></i>
+                              <a href="#" title="">Reports</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Handling widgets</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=""
+                                >How to pass OAuth2 token in API version 3</a
+                              >
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Sla CRUD</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">SLA reminders</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Form Group</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card card-widget">
+                          <div
+                            class="card-header"
+                            style="
+                              border-bottom: solid 2px rgba(47, 64, 233, 1);
+                            "
+                          >
+                            <h3
+                              class="card-title"
+                              style="color: rgba(47, 64, 233, 1)"
+                            >
+                              <a
+                                href="#"
+                                title=""
+                                style="color: rgba(47, 64, 233, 1)"
+                              >
+                                <i class="far fa-folder-open mr-2"></i> Plugins
+                              </a>
+                              <span class="cat-count ml-2">
+                                <i class="far fa-hdd fa-fw"></i>
+                                (8)
+                              </span>
+                            </h3>
+                          </div>
+                          <ul class="nav flex-column">
+                            <li>
+                              <i class="far fa-folder mr-2"></i>
+                              <a href="#" title="">LDAP</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Plugin Creation In Faveo</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- END Widget -->
+                      <div class="col-md-6">
+                        <div class="card card-widget">
+                          <div
+                            class="card-header"
+                            style="
+                              border-bottom: solid 2px rgba(47, 64, 233, 1);
+                            "
+                          >
+                            <h3
+                              class="card-title"
+                              style="color: rgba(47, 64, 233, 1)"
+                            >
+                              <a
+                                href="#"
+                                title=""
+                                style="color: rgba(47, 64, 233, 1)"
+                              >
+                                <i class="far fa-folder-open mr-2"></i>Standards
+                              </a>
+                              <span class="cat-count ml-2">
+                                <i class="far fa-hdd fa-fw"></i> (3)
+                              </span>
+                            </h3>
+                          </div>
+                          <ul class="nav flex-column">
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">UI Programming Standards</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=""
+                                >PHP IDE & Debugging for Laravel</a
+                              >
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=""
+                                >Faveo Helpdesk Programming Standards</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- END Widget -->
+                      <div class="col-md-6">
+                        <div class="card card-widget">
+                          <div
+                            class="card-header"
+                            style="
+                              border-bottom: solid 2px rgba(47, 64, 233, 1);
+                            "
+                          >
+                            <h3
+                              class="card-title"
+                              style="color: rgba(47, 64, 233, 1)"
+                            >
+                              <a
+                                href="#"
+                                title=""
+                                style="color: rgba(47, 64, 233, 1)"
+                              >
+                                <i class="far fa-folder-open mr-2"></i
+                                >Uncategorized
+                              </a>
+                              <span class="cat-count ml-2">
+                                <i class="far fa-hdd fa-fw"></i> (27)
+                              </span>
+                            </h3>
+                          </div>
+                          <ul class="nav flex-column">
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title=""
+                                >Protected: Get Change Data</a
+                              >
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Protected: Delete Rating</a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Protected: Update Rating </a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Protected: Create Rating </a>
+                            </li>
+                            <li>
+                              <i class="far fa-file mr-2"></i>
+                              <a href="#" title="">Protected: Ratings List </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- END Widget -->
+                    </div>
+                  </div>
+                </article>
+                <!-- END Left Section -->
+              </div>
+
+              <div class="col-md-4">
+                <!-- Sidebar -->
+                <aside id="sidebar" class="sidebar">
+                  <header id="page-header">
+                    <h2
+                      class="page-title"
+                      style="
+                        border-bottom: solid 2px rgba(47, 64, 233, 1);
+                        color: rgba(47, 64, 233, 1);
+                      "
+                    >
+                      Categories
+                    </h2>
+                  </header>
+                  <div class="widget widget_article_categories">
+                    <ul class="m-0 p-0">
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >20</span
+                          >
+                          <a href="#" title="">Admin Panel</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >5</span
+                          >
+                          <a href="#" title="">Admin Settings</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >12</span
+                          >
+                          <a href="#" title="">Agent Dashboard</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">Agent Panel</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >2</span
+                          >
+                          <a href="#" title="">API Setting</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >5</span
+                          >
+                          <a href="#" title="">Approval Workflow</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >1</span
+                          >
+                          <a href="#" title="">Asset Management</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">Asset Status</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">Asset Type</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >3</span
+                          >
+                          <a href="#" title="">BreakLine</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >3</span
+                          >
+                          <a href="#" title="">CAB Management</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">Change Management</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >6</span
+                          >
+                          <a href="#" title="">Client Panel</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >7</span
+                          >
+                          <a href="#" title="">CMDB</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >11</span
+                          >
+                          <a href="#" title="">Contract Management</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >1</span
+                          >
+                          <a href="#" title="">Core</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >2</span
+                          >
+                          <a href="#" title="">Cron</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">Department</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >2</span
+                          >
+                          <a href="#" title="">Error logs and debugging</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">Events</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >10</span
+                          >
+                          <a href="#" title="">External API</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >1</span
+                          >
+                          <a href="#" title="">Forms</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >3</span
+                          >
+                          <a href="#" title="">Help Topic</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >28</span
+                          >
+                          <a href="#" title="">Helpdesk</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >13</span
+                          >
+                          <a href="#" title="">Helpdesk</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >13</span
+                          >
+                          <a href="#" title="">Helpdesk</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >13</span
+                          >
+                          <a href="#" title="">Internal API</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >5</span
+                          >
+                          <a href="#" title="">Knowledgebase</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >2</span
+                          >
+                          <a href="#" title="">Languages</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >7</span
+                          >
+                          <a href="#" title="">LDAP</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">License Type Management</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >1</span
+                          >
+                          <a href="#" title="">Location</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">Login Logs</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >2</span
+                          >
+                          <a href="#" title="">Modules</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >1</span
+                          >
+                          <a href="#" title="">Organizations</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >1</span
+                          >
+                          <a href="#" title="">Plugins</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >3</span
+                          >
+                          <a href="#" title="">Plugins</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >8</span
+                          >
+                          <a href="#" title="">Problem Management</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >7</span
+                          >
+                          <a href="#" title="">Problem Management</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >7</span
+                          >
+                          <a href="#" title="">Product</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">Queue</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >7</span
+                          >
+                          <a href="#" title="">Release Management</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >5</span
+                          >
+                          <a href="#" title="">Reports</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >1</span
+                          >
+                          <a href="#" title="">Servicedesk</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >2</span
+                          >
+                          <a href="#" title="">Social Login</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >5</span
+                          >
+                          <a href="#" title="">Sources</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >6</span
+                          >
+                          <a href="#" title="">System Logs</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >2</span
+                          >
+                          <a href="#" title="">System Settings</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >6</span
+                          >
+                          <a href="#" title="">Tag</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >5</span
+                          >
+                          <a href="#" title="">Team</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >10</span
+                          >
+                          <a href="#" title="">Ticket Actions</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >11</span
+                          >
+                          <a href="#" title="">Ticket Actions</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >11</span
+                          >
+                          <a href="#" title="">Ticket Info</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >4</span
+                          >
+                          <a href="#" title="">Ticket Property</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >6</span
+                          >
+                          <a href="#" title="">Ticket Status</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >5</span
+                          >
+                          <a href="#" title="">Ticket Type</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >3</span
+                          >
+                          <a href="#" title="">Time Track</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >27</span
+                          >
+                          <a href="#" title="">Uncategorized</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >2</span
+                          >
+                          <a href="#" title="">User Options</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <span
+                            style="
+                              background-color: rgba(47, 64, 233, 1);
+                              color: #fff;
+                            "
+                            >2</span
+                          >
+                          <a href="#" title="">Webhook</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <header id="page-header">
+                    <h2
+                      class="page-title"
+                      style="
+                        border-bottom: solid 2px rgba(47, 64, 233, 1);
+                        color: rgba(47, 64, 233, 1);
+                      "
+                    >
+                      Popular Articles
+                    </h2>
+                  </header>
+                  <ul class="nav flex-column">
+                    <li>
+                      <i class="far fa-file mr-2"></i>
+                      <a href="" title="">Login</a>
+                    </li>
+                    <li>
+                      <i class="far fa-file mr-2"></i>
+                      <a href="#" title=" ">Create Ticket V3</a>
+                    </li>
+                    <li>
+                      <i class="far fa-file mr-2"></i>
+                      <a href="#" title=""
+                        >Faveo Helpdesk Programming Standards</a
+                      >
+                    </li>
+                    <li>
+                      <i class="far fa-file mr-2"></i>
+                      <a href="#" title=""
+                        >Departments Tickets Count Dashboard</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+
+                <!-- END Sidebar -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END Main Content Wrapper -->
+
+      <!-- Footer -->
+
+      <footer class="main-f-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="f-widget">
+                <h3>PRODUCTS</h3>
+                <ul>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Faveo Helpdesk
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Faveo Servicedesk
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://epapermanager.com/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >ePaper Manager</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.agorainvoicing.com/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Agora Invoicing
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://codecanyon.net/user/ladybirdweb/portfolio">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Scripts
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="f-widget">
+                <h3>POLICIES</h3>
+                <ul>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/privacy-policy/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Privacy Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/terms-conditions/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Terms &amp; Conditions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/eula/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >EULA
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.faveohelpdesk.com/data-deletion-policy/"
+                    >
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Data Deletion Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.faveohelpdesk.com/data-hosting-policy/"
+                    >
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Data Hosting Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/security/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"> </i
+                      >Secure Customer Service Software
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/cookies-policy/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Cookies Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/gdpr/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >GDPR &amp; EU Data Protection
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="f-widget">
+                <h3>SERVICES</h3>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.ladybirdweb.com/services/ecommerce-website-design/"
+                    >
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >E-commerce website design &amp; development india</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.ladybirdweb.com/web-design-development-india/"
+                    >
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Web Design &amp; Development India
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ladybirdweb.com/services/web-app-development/"
+                    >
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Web Applications Development
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.ladybirdweb.com/website-maintenance-india/"
+                    >
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Website Maintenance India
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://store.ladybirdwebhost.com/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Domain Registration &amp; Web Hosting
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="f-widget">
+                <h3>SUPPORT</h3>
+                <ul>
+                  <li>
+                    <a href="https://support.faveohelpdesk.com/knowledgebase">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >User Manual
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://docs.faveohelpdesk.com/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Installation Manual
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/request-a-demo/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Request A Demo
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/become-a-partner/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Become a Partner
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/our-partners/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Our Partners
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.faveohelpdesk.com/love-open-source/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >We Love Open Source
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.faveohelpdesk.com/faveo-helpdesk-road-map/"
+                    >
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Faveo Road Map
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.faveohelpdesk.com/support-community-edition/"
+                    >
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Support the Community Edition</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://developers.faveohelpdesk.com">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Developer Portal
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://forum.faveohelpdesk.com/">
+                      <i class="fa fa-angle-right mr-2" aria-hidden="true"></i
+                      >Community Forums
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-md-6">
+              <p class="m-0">
+                Copyright © 2021. Ladybird Web Solution All rights reserved.
+                Powered by Faveo
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div class="site-social text-right">
+                <ul class="m-0 p-0">
+                  <li>
+                    <a href="#" target="_blank" class="btn-social btn-linkedin">
+                      <i class="fab fa-linkedin fa-fw"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="btn-social btn-twitter">
+                      <i class="fab fa-twitter fa-fw"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="btn-social btn-facebook">
+                      <i class="fab fa-facebook-f fa-fw"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="btn-social btn-youtube">
+                      <i class="fab fa-youtube fa-fw"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="btn-social btn-instagram"
+                    >
+                      <i class="fab fa-instagram fa-fw"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- END Footer -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge("uibutton", $.ui.button);
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ChartJS -->
+    <script src="../plugins/chart.js/Chart.min.js"></script>
+    <!-- Sparkline -->
+    <script src="../plugins/sparklines/sparkline.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="../plugins/jquery-knob/jquery.knob.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="../plugins/moment/moment.min.js"></script>
+    <script src="../plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Summernote -->
+    <script src="../plugins/summernote/summernote-bs4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../dist/js/adminlte.js"></script>
+  </body>
+</html>
