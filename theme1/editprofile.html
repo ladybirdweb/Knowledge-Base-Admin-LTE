@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HomePage | Dashboard</title>
+  <title>Profile</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -19,6 +19,11 @@
   <link rel="stylesheet" href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- JQVMap -->
   <link rel="stylesheet" href="../plugins/jqvmap/jqvmap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<!-- Font Awesome CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
   <!-- Theme style -->
   <link rel="stylesheet" href="../dist/css/adminlte.min.css">
   <!-- overlayScrollbars -->
@@ -29,8 +34,10 @@
   <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
   <!-- Custom -->
   <link rel="stylesheet" href="../dist/css/custom.css">
-  <link rel="stylesheet" href="../dist/css/alt/login.css">
+  
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../dist/css/alt/editprofile.css">
+ 
 
 </head>
 
@@ -48,98 +55,102 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="category.html">Home</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="#">Submit Ticket</a>
               </li>
-              
-              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Knowledge Base
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Billing </a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="login.html">login </a>
               </li>
             </ul>
           </div>
         </nav>
-        <div class="live-search">
-          <form class="input-group input-group-sm">
-            <input class="form-control form-control-navbar" type="search"
-              placeholder="Have a question? Ask or enter a search term." aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-navbar" type="submit">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
+        
           </form>
         </div>
       </div>
     </header>
+    <div class="content-header">
+      <div class="breadcrumb-top">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="category.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Profile</a></li> 
+        </ol>
+      </div>
+    </div>
     <!-- END Header -->
     <!-- Main Content Wrapper -->
-    <div class="wrapper">
+    
+    <div class="student-profile py-4">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
-                <div class="hero-widget well well-sm">
-                  <a href="profile.html">
-                      <div class="icon">
-                           <i class="glyphicon glyphicon-user"></i>
-                      </div>
-                    <div class="text">
-                          <var><i class="fas fa-id-card"></i></var>
-                          <label class="text-muted">Register</label>
-                      </div>
-                      
-                  </div>
-          </div>
-        </a>
-          
-          
-              <div class="col-sm-3">
-                  <div class="hero-widget well well-sm"><a
-                     href="SubmitTicket.html">
-                      <div class="icon">
-                           <i class="glyphicon glyphicon-star"></i>
-                      </div>
-                      <div class="text">
-                          <var><i class="fas fa-ticket-alt"></i></var>
-                          <label class="text-muted">Submit Ticket</label>
-                      </div>
-                     
-                  </div>
-                </a>
-          </div>
-              <div class="col-sm-3">
-                  <div class="hero-widget well well-sm">
-                    <a href="tick1.html">
-                      <div class="icon">
-                           <i class="glyphicon glyphicon-tags"></i>
-                      </div>
-                      <div class="text">
-                          <var><i class="fas fa-users"></i></var>
-                          <label class="text-muted">My Ticket</label>
-                      </div>
-                    
-                  </div>
-                </a>
+          <div class="col-lg-4">
+            <div class="card shadow-sm">
+              <div class="card-header bg-transparent text-center">
+                <img class="profile_img" src="https://i.pinimg.com/originals/2f/b4/c0/2fb4c05dd51c9338cbdd2582736685eb.jpg " width="200px" height="200px" alt="student dp">
+                <h3 class="john">Johnnie Walker</h3>
+              </div>
+              
             </div>
-              <div class="col-sm-3">
-                  <div class="hero-widget well well-sm">
-                    <a href="knowledge.html">
-                      <div class="icon">
-                           <i class="glyphicon glyphicon-cog"></i>
-                      </div>
-                      <div class="text">
-                          <var class="gupu"><i class="fas fa-lightbulb"></i></var>
-                          <label class="text-muted">Knowledge Base</label>
-                      </div>
-                     
-                  </div>
-                </a>
+          </div>
+          <div class="col-lg-8">
+            <div class="card shadow-sm">
+              <div class="card-header bg-transparent border-0">
+                <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
+              </div>
+              <div class="card-body pt-0">
+                <table class="table table-bordered">
+                  <tr>
+                    <th width="30%">Name</th>
+                    <td width="2%">:</td>
+                    <td>Johnnie Walker</td>
+                  </tr>
+                  <tr>
+                    <th width="30%">Email</th>
+                    <td width="2%">:</td>
+                    <td>johnny@yahoo.com</td>
+                  </tr>
+                  <tr>
+                    <th width="30%">Company</th>
+                    <td width="2%">:</td>
+                    <td>Uber</td>
+                  </tr>
+                  <tr>
+                    <th width="30%">Contact No</th>
+                    <td width="2%">:</td>
+                    <td>9977554312</td>
+                  </tr>
+                  
+                </table>
+              </div>
+            </div>
+            
+            <div class="card shadow-sm">
+              <div class="card-header bg-transparent border-0">
+                <a href="myedit.html"><button>Update</button></a>
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </div>   
+    
         <!-- END Top Section -->
       
       

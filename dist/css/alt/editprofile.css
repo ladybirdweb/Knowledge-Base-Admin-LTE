@@ -1,0 +1,35 @@
+.nav{
+  padding-top: 50px;
+  
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+}
+.student-profile .card {
+  border-radius: 10px;
+}
+button{
+
+ background-color: blueviolet;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 17%;
+  opacity: 0.9;
+
+}
+button:hover{
+  background-color: blue;
+}
+.john{
+  font-size: 15px;
+  padding-top: 8px;
+}
+.profile_img{
+  padding-top: 30px;
+}

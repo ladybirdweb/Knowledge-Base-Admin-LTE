@@ -1,0 +1,41 @@
+.logo{
+  padding-top: 30px;
+  margin-top: 20px;
+  padding-left: 620px;
+
+}
+.table1:hover{
+  background-color: lightgray;
+}
+label:hover{
+  color: blueviolet;
+}
+.hero-widget { text-align: center; padding-top: 20px; padding-bottom: 20px; }
+.hero-widget .icon { display: block; font-size: 96px; line-height: 96px; margin-bottom: 10px; text-align: center; }
+.hero-widget var { display: block; height: 64px; font-size: 64px; line-height: 64px; font-style: normal; }
+.hero-widget label { font-size: 17px; }
+.hero-widget .options { margin-top: 10px; }
+
+.hero-widget{
+ background: purple 2px solid;
+}
+button:hover{
+  background-color: blue;
+}
+.text{
+  text-decoration: none;
+  color: black;
+}
+.text:hover{
+  color: blueviolet;
+}
+.tab-pane{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.ticktable{
+  background-color: lightgray;
+}
+span{
+  padding-left: 5px;
+}
