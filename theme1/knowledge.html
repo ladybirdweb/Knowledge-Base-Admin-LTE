@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Knowledge Base</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -29,8 +30,9 @@
   <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
   <!-- Custom -->
   <link rel="stylesheet" href="../dist/css/custom.css">
+  <link rel="stylesheet" href="../dist/css/home.css">
 
-</head>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
 
 <body>
   <div class="wrapper">
@@ -38,35 +40,29 @@
     <header role="banner" class="site-header">
       <div class="container">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="./home.html"><img src="../dist/images/faveo.png"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+              <li class="nav-item">
+                <a class="nav-link" href="category.html">Home</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="#">Submit Ticket</a>
+                <a class="nav-link" href="SubmitTicket.html">Submit Ticket</a>
               </li>
+              
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Knowledge Base
+                <a class="nav-link dropdown-toggle" href="login.html">Login
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="register.html">Sign Up</a>
+                  <a class="dropdown-item" href="login.html">Already have an account ?</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="forgotpass.html">Forgot Password</a>
                 </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Billing </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">login </a>
               </li>
             </ul>
           </div>
@@ -92,15 +88,19 @@
         <!-- Top Section -->
         <div class="content-header">
           <div class="breadcrumb-top">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">ChartJS</li>
+            <ol class="breadcrumb" id="top">
+              <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+              <li class="breadcrumb-item active">Knowledge Base</li>
             </ol>
           </div>
         </div>
         <!-- END Top Section -->
       </div>
       <div class="container">
+        
+        </div>
+      </div> 
+      <div class="container" style="margin-top: 50px;">
         <div class="row">
           <div class="col-md-8">
             <!-- Left Section -->
@@ -718,6 +718,6 @@
   <script src="../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
   <!-- AdminLTE App -->
   <script src="../dist/js/adminlte.js"></script>
-</body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d9542c27e6ed53f',m:'JJK4qyuHna531_xrc.PNXvqosg8qkwfzkfvp0gFhEBY-1644159760-0-AdYGJRNXyfDSM+XE1ZrmkMhz+0AdL3pXfZdDia9T3eK+qW3CKW5P7DY0+nE1ZNXKvOqibAPLWukhBk8KgQfb1Ky7Rz6ayDroZKSXs0IK3iwpWl1StEE6M9enw3GVIr2o1vzSHBFtEV7HcqNnykfBfJyenR0a5ln1yiGbktT6emu64js8TjzfAbDuXzVhQ+tl2NLKMrMDUqqsuc6KyQxL0vA=',s:[0xc4711cfb47,0x67ad13b596],}})();</script></body>
 
 </html>

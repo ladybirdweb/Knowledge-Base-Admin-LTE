@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Submit Ticket</title>
 
   <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="../dist/css/alt/submitTicket.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -29,6 +30,7 @@
   <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
   <!-- Custom -->
   <link rel="stylesheet" href="../dist/css/custom.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 </head>
 
@@ -38,7 +40,7 @@
     <header role="banner" class="site-header">
       <div class="container">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="./home.html"><img src="../dist/images/faveo.png"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -62,265 +64,129 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Billing </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">login </a>
-              </li>
-            </ul>
-          </div>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">My Profile</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <img src="https://i.pinimg.com/originals/2f/b4/c0/2fb4c05dd51c9338cbdd2582736685eb.jpg" style="border-radius: 50%; width: 100px; position: relative; left: 2em; padding: 5%;">
+                    <p style="padding: 2%; font-weight: bold;font-size: 30px; margin-left: 33%;" >XYZ</p>
+                    <div class="btns">
+                    <a href="editprofile.html"><button class="pbtn">My Profile</button></a>
+                   <a href="login.html"><button class="pbtn">Logout</button></a>
+                    </div>
+                    </div>
+                    </li>
+
+
         </nav>
-        <div class="live-search">
-          <form class="input-group input-group-sm">
-            <input class="form-control form-control-navbar" type="search"
-              placeholder="Have a question? Ask or enter a search term." aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-navbar" type="submit">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
+       
           </form>
         </div>
       </div>
     </header>
-    <!-- END Header -->
-
-    <div class="main-content-wrapper">
-      <div class="container">
-        <div class="content-header">
-          <div class="breadcrumb-top">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Knowledge Base </a></li>
-              <li class="breadcrumb-item"><a href="#">Article List </a></li>
-              <li class="breadcrumb-item"><a href="#">Reports </a></li>
-              <li class="breadcrumb-item active">Top Customer Analysis Report (Organization Report)</li>
-            </ol>
-          </div>
-        </div>
+    <div class="content-header">
+      <div class="breadcrumb-top">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="category.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">SubmitTickets</a></li> 
+        </ol>
       </div>
+    </div>
+   
+    <!-- END Header -->
+    <!-- Main Content Wrapper -->
+    
+    <div class="wrapper">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
-            <!-- BEGIN .post -->
-            <article>
-              <div class="knowledgebase-widget-wrapper">
-                <header id="page-header">
-                  <h1 class="page-title">Using my credit</h1>
-                  <div class="knowledgebase-meta mt-2 mb-4">
-                    <span class="date mr-3">
-                      <i class="far fa-clock fa-fw"></i>
-                      <time>January 16, 2020 01:18 pm</time>
-                    </span>
-                    <span class="category">
-                      <i class="far fa-folder-open fa-fw"></i>
-                      <a href="#" class="" title="Reports">Reports</a>
-                    </span>
+          <div class="col-sm-3">
+                <div class="hero-widget well well-sm">
+                      <div class="icon">
+                           <i class="glyphicon glyphicon-user"></i>
+                      </div>
+                      <a href="profile.html"><div class="text">
+                          <var><i class="fas fa-id-card"></i></var>
+                          <label class="text-muted">Register</label>
+                      </div>
+                    </a>
                   </div>
-                  <hr>
-                </header>
-                <div class="single-page-content">
-                  <p>Top Customer Analysis gives and helps you to understand which organization has the highest number
-                    of tickets trends in the kinds of tickets they've raised and in that tickets how many resolved,
-                    unresolved and reopened.
-                  </p>
-                  <p>
-                    It also provides how many tickets met with a response and resolution SLA and reported with the
-                    number of client and agent replies.
-                  </p>
-                  <p>
-                    Faveo Support system provides you the different chart types to view the report:
-                  </p>
-                  <ul>
-                    <li>Bar</li>
-                    <li>Horizontal Bar</li>
-                    <li>Pie</li>
-                    <li>Doughnut</li>
-                  </ul>
-                  <p>The Analytical chart is displayed for the top organizations with the tickets count.</p>
-                  <h4>Your top 5 customers will be displayed, based on the following metrics:
-                  </h4>
-                  <table class="table table-bordered table-hover">
-                    <tbody>
-                      <tr>
-                        <td><strong>Metrics</strong></td>
-                        <td><strong>What it means</strong></td>
-                      </tr>
-                      <tr>
-                        <td>Tickets Received from the organizations</td>
-                        <td>In this, it displays the highest number of tickets created by the organizations through any
-                          channel.</td>
-                      </tr>
-                      <tr>
-                        <td>Tickets resolved for the organization</td>
-                        <td>It displays the organizations which have the highest count of resolved tickets in the chart.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Tickets unresolved count of the top organization</td>
-                        <td>Here, the highest number of tickets that were not resolved in the top organizations are
-                          displayed.&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td>Tickets reopened by the organization</td>
-                        <td>The highest number of tickets reopened by the organization is displayed with the ticket
-                          count.</td>
-                      </tr>
-                      <tr>
-                        <td>Tickets met with Response SLA and replied</td>
-                        <td>It shows the top organizations which have the highest count of the tickets raised and that
-                          is met Respond SLA and replied.</td>
-                      </tr>
-                      <tr>
-                        <td>Tickets which are met with Resolution SLA&nbsp;</td>
-                        <td>Here, it shows the highest number of tickets that were met with Resolution SLA displayed in
-                          the chart for the top organization.</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>Client Responses</p>
-                          <p>(Client Interaction on the tickets)</p>
-                        </td>
-                        <td>Displays the chart for the total number of responses added by the customer on the tickets
-                          for the top organization.</td>
-                      </tr>
-                      <tr>
-                        <td>Agent Responses (Agent Interactions)&nbsp;&nbsp;</td>
-                        <td>It gives an analytical chart about the agent responses on the tickets for the top
-                          organization.</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <p>You can use the filters to dig deeper and find out answers to specific questions, For example,
-                    “Only to view the Opened tickets of the organization”, etc...</p>
-                  <h4>A Quick Guide to view top customer analysis report:</h4>
-                  <ul>
-                    <li>ogin to Faveo Support Portal as an Agent</li>
-                    <li>Navigate to <strong>Agent Panel > Reports > Top Customer Analysis.</strong></li>
-                  </ul>
-                  <img
-                    src="https://lh3.googleusercontent.com/W-PFlhh9O5pFq1ZAG8n_565YKTTsEEps4vXDaa58r6uEExCnWWnXTsGXUueaSwW8m1w69Iqkl_T52yLPpAby5QZD2JCOqkljlmT-vdcp36DKux5BV1w2WJmXC4mJ0if9pzl-jV02"
-                    alt="" class="img-fluid">
-                  <ul>
-                    <li>When you select the Top Customer Analysis Report following are the analytical report’s charts
-                      are displayed.</li>
-                  </ul>
-                  <h5>Received Tickets:</h5>
-                  <p>In this, the analytical report is given on the Top organizations in which the highest tickets
-                    received.
-                    <img
-                      src="https://lh6.googleusercontent.com/Qc9JdcuWQRiORPUsbKGqDZITRi6vJTZ34wQppXYEGrkkNVl7jTqhWuQYsa09PkSGYNUKWre-bMdVP8ZOtaqoviT4cmeJeZZ_n_9Lo_sjrE6Rm40Y1IyUO-fjPAbUu85YfiSTmOAT"
-                      alt="" class="img-fluid">
-                  </p>
-                </div>
-              </div>
-            </article>
           </div>
-          <div class="col-md-4">
-            <aside id="sidebar" class="sidebar">
-              <header id="page-header">
-                <h2 class="page-title"> Article Categories</h2>
-              </header>
-              <div class="widget widget_article_categories">
-                <ul class="m-0 p-0">
-                  <li>
-                    <div><span>12</span><a href="#" title="">Account Settings</a> </div>
-                  </li>
-                  <li>
-                    <div><span>5</span><a href="#" title="">Billing</a> </div>
-                  </li>
-                  <li>
-                    <div><span>6</span><a href="#" title="">Copyright &amp; Legal</a> </div>
-                  </li>
-                  <li>
-                    <div><span>7</span><a href="#" title="">Customization</a> </div>
-                  </li>
-                  <li>
-                    <div><span>12</span><a href="#" title="">Getting Started</a> </div>
-                  </li>
-                  <li>
-                    <div><span>3</span><a href="#" title="">Troubleshooting</a> </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="widget widget_article_categories">
-                <h4 class="widgettitle">Most Viewed</h4>
-                <ul class="m-0 p-0">
-                  <li>
-                    <a href="#" rel="bookmark">Using my credit</a>
-                    <span class="meta">
-                      <span class="nice-views"><i class="fa fa-bullseye mr-2"></i> 1197 </span>
-                    </span>
-                  </li>
-                  <li>
-                    <a href="#" rel="bookmark">Manage your email subscription preferences</a>
-                    <span class="meta">
-                      <span class="nice-views"><i class="fa fa-bullseye mr-2"></i> 894 </span>
-                    </span>
-                  </li>
-                  <li>
-                    <a href="#" rel="bookmark">Account overview</a>
-                    <span class="meta">
-                      <span class="nice-views"><i class="fa fa-bullseye mr-2"></i> 841 </span>
-                    </span>
-                  </li>
-                  <li class="clearfix format-video">
-                    <a href="#" rel="bookmark">How do I update my credit card?</a>
-                    <span class="meta">
-                      <span class="nice-views"><i class="fa fa-bullseye mr-2"></i> 827 </span>
-                    </span>
-                  </li>
-                  <li>
-                    <a href="#" rel="bookmark">Manual Payment Methods</a>
-                    <span class="meta">
-                      <span class="nice-views"><i class="fa fa-bullseye mr-2"></i> 827 </span>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-              <div class="widget widget_article_categories">
-                <h4 class="widgettitle">Most Liked</h4>
-                <ul class="m-0 p-0">
-                  <li>
-                    <a href="#" rel="bookmark">Using my credit</a>
-                    <span class="meta">
-                      <span class="nice-likes"><i class="fa fa-heart mr-2"></i> <span
-                          class="like-count">27</span></span>
-                    </span>
-                  </li>
-                  <li>
-                    <a href="#" rel="bookmark">Manage your email subscription preferences</a>
-                    <span class="meta">
-                      <span class="nice-likes"><i class="fa fa-heart mr-2"></i> <span class="like-count">9</span></span>
-                    </span>
-                  </li>
-                  <li>
-                    <a href="#" rel="bookmark">Account overview</a>
-                    <span class="meta">
-                      <span class="nice-likes"><i class="fa fa-heart mr-2"></i> <span
-                          class="like-count">10</span></span>
-                    </span>
-                  </li>
-                  <li>
-                    <a href="#" rel="bookmark">How do I update my credit card?</a>
-                    <span class="meta">
-                      <span class="nice-likes"><i class="fa fa-heart mr-2"></i> <span class="like-count">9</span></span>
-                    </span>
-                  </li>
-                  <li>
-                    <a href="#" rel="bookmark">Manual Payment Methods</a>
-                    <span class="meta">
-                      <span class="nice-likes"><i class="fa fa-heart mr-2"></i> <span class="like-count">7</span></span>
-                    </span>
-                  </li>
-                </ul>
-              </div> <!-- END #sidebar -->
-            </aside>
+              <div class="col-sm-3">
+                  <div class="hero-widget well well-sm">
+                      <div class="icon">
+                           <i class="glyphicon glyphicon-star"></i>
+                      </div>
+                      <div class="text">
+                          <var><i class="fas fa-ticket-alt"></i></var>
+                          <label class="text-muted">Submit Ticket</label>
+                      </div>
+               
+                  </div>
+          </div>
+              <div class="col-sm-3">
+                  <div class="hero-widget well well-sm">
+                      <div class="icon">
+                           <i class="glyphicon glyphicon-tags"></i>
+                      </div>
+                    <a href="tick1.html"> <div class="text">
+                       <var><i class="fas fa-users"></i></var>
+                          <label class="text-muted">My Ticket</label>
+                      </div>
+                    </a> 
+                  </div>
+            </div>
+              <div class="col-sm-3">
+                  <div class="hero-widget well well-sm">
+                      <div class="icon">
+                           <i class="glyphicon glyphicon-cog"></i>
+                      </div>
+                     <a href="knowledge.html"><div class="text">
+                          <var><i class="fas fa-lightbulb"></i></var>
+                          <label class="text-muted">Knowledge Base</label>
+                      </div>
+                    </a> 
+                  </div>
           </div>
         </div>
       </div>
     </div>
+    
 
+    
+        <!-- END Top Section -->
+        <center><div class="regform">
+          <h1>Submit Tickets</h1>
+          <hr>
+      
+          <label class="fs" for="email"><b>Requester</b></label><br>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+      
+          <label class="fs" for="psw"><b>Subject</b></label><br>
+          <input type="password" placeholder="Enter name" name="psw" id="psw" required><br>
+      
+          <label class="fs" for="psw-repeat"><b>Priority</b></label><br>
+          <select name="prior" id="prior">
+            <option value="starter" selected  disabled hidden>--None--</option>
+            <option value="urgent">Urgent</option>
+            <option value="high">High</option>
+            <option value="moderate">Moderate</option>
+            <option value="low">Low</option>
+          </select><br>
+          <label class="fs" for="help"><b>Description</b></label><br>
+          <textarea></textarea>
+          
+          <hr>
+      
+          <button type="submit" class="registerbtn">Submit</button>
+       
+        
+        <div class="container signin">
+          <p>Already have an account? <a href="login.html">Log in</a></p>
+        </div></center>
+      </div>
+      </form>
+      
+    <!-- END Main Content Wrapper -->
 
     <!-- Footer -->
 
@@ -538,29 +404,6 @@
     </footer>
 
     <!-- END Footer -->
-  </div>
-
-
-
-
-
-
-  <section id="content" class="main-content" role="main">
-
-
-
-
-
-  </section>
-
-
-
-
-
-
-
-
-
 
 
   </div>

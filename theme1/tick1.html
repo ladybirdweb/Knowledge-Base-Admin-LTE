@@ -4,12 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HomePage | Dashboard</title>
+  <title>View Ticket</title>
 
   <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="../dist/css/alt/tick1.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
+  <link rel="stylesheet" href="../dist/css/alt/viewTicket.css">
   <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -29,7 +31,7 @@
   <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
   <!-- Custom -->
   <link rel="stylesheet" href="../dist/css/custom.css">
-  <link rel="stylesheet" href="../dist/css/alt/login.css">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 </head>
@@ -53,23 +55,27 @@
               <li class="nav-item ">
                 <a class="nav-link" href="#">Submit Ticket</a>
               </li>
-              
-              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Knowledge Base
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Billing </a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="login.html">login </a>
               </li>
             </ul>
           </div>
         </nav>
-        <div class="live-search">
-          <form class="input-group input-group-sm">
-            <input class="form-control form-control-navbar" type="search"
-              placeholder="Have a question? Ask or enter a search term." aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-navbar" type="submit">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
+         
           </form>
         </div>
       </div>
@@ -81,37 +87,31 @@
         <div class="row">
           <div class="col-sm-3">
                 <div class="hero-widget well well-sm">
-                  <a href="profile.html">
                       <div class="icon">
                            <i class="glyphicon glyphicon-user"></i>
                       </div>
-                    <div class="text">
+                     <a href="profile.html"><div class="text">
                           <var><i class="fas fa-id-card"></i></var>
-                          <label class="text-muted">Register</label>
+                          <b><label class="text-muted">Register</label></b>
                       </div>
+                      </a>
                       
                   </div>
           </div>
-        </a>
-          
-          
               <div class="col-sm-3">
-                  <div class="hero-widget well well-sm"><a
-                     href="SubmitTicket.html">
+                  <div class="hero-widget well well-sm">
                       <div class="icon">
                            <i class="glyphicon glyphicon-star"></i>
                       </div>
-                      <div class="text">
+                      <a href="./SubmitTicket.html"><div class="text">
                           <var><i class="fas fa-ticket-alt"></i></var>
                           <label class="text-muted">Submit Ticket</label>
                       </div>
-                     
+                     </a>
                   </div>
-                </a>
           </div>
               <div class="col-sm-3">
                   <div class="hero-widget well well-sm">
-                    <a href="tick1.html">
                       <div class="icon">
                            <i class="glyphicon glyphicon-tags"></i>
                       </div>
@@ -119,32 +119,101 @@
                           <var><i class="fas fa-users"></i></var>
                           <label class="text-muted">My Ticket</label>
                       </div>
-                    
+                      
                   </div>
-                </a>
             </div>
               <div class="col-sm-3">
                   <div class="hero-widget well well-sm">
-                    <a href="knowledge.html">
                       <div class="icon">
                            <i class="glyphicon glyphicon-cog"></i>
                       </div>
-                      <div class="text">
-                          <var class="gupu"><i class="fas fa-lightbulb"></i></var>
+                     <a href="./knowledge.html"><div class="text">
+                          <var><i class="fas fa-lightbulb"></i></var>
                           <label class="text-muted">Knowledge Base</label>
                       </div>
-                     
+                     </a>
                   </div>
-                </a>
           </div>
         </div>
       </div>
     </div>
+    
+
         <!-- END Top Section -->
+        <div class="mytickets">
+          <div class="logo">
+           
+            <h1> <i class="fas fa-ticket-alt"></i><span>TICKETS</span></h1>
+          </div>
+          
+         <ul class="nav nav-tabs" id="myTab" role="tablist">
+             
+            
+            
+           </ul>
+           
+           <!-- Tab panes -->
+           <div class="tab-content">
+             <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                 <table class="table">
+                     <thead class="ticktable">
+                       <tr>
+                         <th scope="col">#</th>
+                         <th scope="col">Ticket ID</th>
+                         <th scope="col">SUBJECT</th>
+                         <th scope="col">REQUESTER</th>
+                         <th scope="col">STATUS</th>
+                         <th scope="col">Last Activity</th>
+                       </tr>
+                     </thead>
+                     <tbody>
+                       <tr class="table1">
+                         <th scope="row">1</th>
+                         <td><a href="./replytick.html">#ABC-153</a></td>
+                         <td>Windows not Responding</td>
+                         <td>Kappor</td>
+                         <th style="color:blueviolet">Open</th>
+                         <td>January 29, 2020 01:14 pm</td>
+                       </tr>
+                       <tr class="table1">
+                         <th scope="row">2</th>
+                         <td><a href="">#XYZ-523</a></td>
+                         <td>Malicious </td>
+                         <td>Dheeraj</td>
+                         <th style="color:blueviolet">Open</th>
+                         <td>January 29, 2020 01:14 pm</td>
+                       </tr>
+                      
+                     </tbody>
+                   </table>
+             </div>
+             <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                 <table class="table">
+                     <thead class="thead table">
+                       <tr>
+                         <th scope="col">#</th>
+                         <th scope="col">Ticket ID</th>
+                         <th scope="col">SUBJECT</th>
+                         <th scope="col">REQUESTER</th>
+                         <th scope="col">STATUS</th>
+                         <th scope="col">Last Activity</th>
+                       </tr>
+                     </thead>
+                     <tbody>
+                       
+                     </tbody>
+                   </table>
+             </div>
+            
       
       
     <!-- END Main Content Wrapper -->
-
+    <center>
+      <div class="session">
+       
+      </div>
+  
+    </center>
     <!-- Footer -->
 
     <footer class="main-f-footer">

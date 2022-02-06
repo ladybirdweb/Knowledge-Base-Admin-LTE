@@ -1,0 +1,66 @@
+.box{
+  padding-top: 20px;
+  margin: auto;
+  width: 60%;
+  border: 2px solid lightgray;
+
+  height: 250px;
+}
+.box{
+ 
+  box-shadow:  5px 10px #888888;
+}
+h4{
+  padding-left: 300px;
+}
+form{
+  padding-top: 30px;
+}
+input{
+  width: 500px;
+}
+
+button:hover{
+  background-color: blue;
+}
+button{
+  background-color: blueviolet;
+  color: white;
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-bottom: 10px;
+}
+input[type=text]{
+  background-color: lightgrey;
+
+}
+input[type=password]{
+  background-color: lightgray;
+}
+.hero-widget { text-align: center; padding-top: 20px; padding-bottom: 20px; }
+.hero-widget .icon { display: block; font-size: 96px; line-height: 96px; margin-bottom: 10px; text-align: center; }
+.hero-widget var { display: block; height: 64px; font-size: 64px; line-height: 64px; font-style: normal; }
+.hero-widget label { font-size: 17px; }
+.hero-widget .options { margin-top: 10px; }
+
+.hero-widget{
+ background: purple 2px solid;
+}
+button:hover{
+  background-color: blue;
+}
+.text{
+  text-decoration: none;
+  color: black;
+}
+
+button{
+  position: relative;
+  left: 35%;
+
+
+}

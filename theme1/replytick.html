@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HomePage | Dashboard</title>
+  <title>ReplyTicket</title>
 
   <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="../dist/css/alt/replytick.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -29,7 +30,7 @@
   <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
   <!-- Custom -->
   <link rel="stylesheet" href="../dist/css/custom.css">
-  <link rel="stylesheet" href="../dist/css/alt/login.css">
+ 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 </head>
@@ -48,100 +49,109 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="category.html">Home</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="#">Submit Ticket</a>
               </li>
-              
-              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Knowledge Base
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Billing </a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="login.html">login </a>
               </li>
             </ul>
           </div>
         </nav>
-        <div class="live-search">
-          <form class="input-group input-group-sm">
-            <input class="form-control form-control-navbar" type="search"
-              placeholder="Have a question? Ask or enter a search term." aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-navbar" type="submit">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
+       
           </form>
         </div>
       </div>
     </header>
     <!-- END Header -->
     <!-- Main Content Wrapper -->
-    <div class="wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-                <div class="hero-widget well well-sm">
-                  <a href="profile.html">
-                      <div class="icon">
-                           <i class="glyphicon glyphicon-user"></i>
-                      </div>
-                    <div class="text">
-                          <var><i class="fas fa-id-card"></i></var>
-                          <label class="text-muted">Register</label>
-                      </div>
-                      
-                  </div>
-          </div>
-        </a>
-          
-          
-              <div class="col-sm-3">
-                  <div class="hero-widget well well-sm"><a
-                     href="SubmitTicket.html">
-                      <div class="icon">
-                           <i class="glyphicon glyphicon-star"></i>
-                      </div>
-                      <div class="text">
-                          <var><i class="fas fa-ticket-alt"></i></var>
-                          <label class="text-muted">Submit Ticket</label>
-                      </div>
-                     
-                  </div>
-                </a>
-          </div>
-              <div class="col-sm-3">
-                  <div class="hero-widget well well-sm">
-                    <a href="tick1.html">
-                      <div class="icon">
-                           <i class="glyphicon glyphicon-tags"></i>
-                      </div>
-                      <div class="text">
-                          <var><i class="fas fa-users"></i></var>
-                          <label class="text-muted">My Ticket</label>
-                      </div>
-                    
-                  </div>
-                </a>
-            </div>
-              <div class="col-sm-3">
-                  <div class="hero-widget well well-sm">
-                    <a href="knowledge.html">
-                      <div class="icon">
-                           <i class="glyphicon glyphicon-cog"></i>
-                      </div>
-                      <div class="text">
-                          <var class="gupu"><i class="fas fa-lightbulb"></i></var>
-                          <label class="text-muted">Knowledge Base</label>
-                      </div>
-                     
-                  </div>
-                </a>
-          </div>
-        </div>
-      </div>
-    </div>
+   
+  
         <!-- END Top Section -->
-      
+        <div class="mytickets">
+         
+           <!-- Tab panes -->
+           <div class="tab-content">
+             
+                 <table class="table">
+                     <thead class="thead table-light">
+                      <h1><i class="fas fa-ticket-alt"></i><span>TICKET SESSION</span></h1>
+                     </thead>
+                     <tbody>
+                       <tr>
+                        
+                         <th font color="black">Status:</th>
+                         <th style="color:blueviolet;" >Open</th>
+                         <td></td>
+                   <th>Help Topic</th>
+                         <td>Support Query</td>
+                       </tr>
+                       <tr>
+                        
+                         <th>Department:</th>
+                         <td>Support</td>
+                         <td></td>
+                         <th>Last Message</th>
+                         <td>Johnnie Walker</td>
+                       </tr>
+                       <tr>
+                      
+                        <th>Created Date:</th>
+                        <td>17 August,2021</td>
+                        <td></td>
+                        <th>Last Response</th>
+                        <td>28 August,2021</td>
+                      </tr>
+                      
+                     </tbody>
+                   </table>
+             </div>
+             <div class="replybox">
+              
+              <div class="container mt-5">
+                <div class="d-flex justify-content-center row">
+                    <div class="col-md-8">
+                        <div class="d-flex flex-column comment-section">
+                            <div class="bg-white p-2">
+                              <div>
+                                <div class="d-flex flex-row user-info"><i class="fas fa-user-circle fa-5x"></i>
+                                    <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">Johnnie Walker</span><span class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="comment-text">August 21 ,2021 1:00pm</p>
+                                </div>
+                            </div>
+                            <div class="bg-white">
+                                <div class="d-flex flex-row fs-12">
+                                    <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i></div>
+                                </div>
+                            </div>
+                            <div class="bg-light p-2">
+                                <div class="d-flex flex-row align-items-start"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
+                                <div class="mt-2 text-right"><button>Reply</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             </div>
       
     <!-- END Main Content Wrapper -->
 

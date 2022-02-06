@@ -1,0 +1,25 @@
+.mytickets{
+  padding-top: 95px;
+}
+
+.tab-content{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.d-flex flex-column comment-section{
+  background-color: lightgray;
+}
+button{
+  background-color: blueviolet;
+  color: white;
+}
+button:hover{
+  background-color:blue;
+
+}
+span{
+  padding-left: 5px;
+}
+tbody{
+  padding-top: 20px;
+}

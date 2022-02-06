@@ -4,12 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HomePage | Dashboard</title>
+  <title>View Ticket</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
+  <link rel="stylesheet" href="../dist/css/alt/viewTicket.css">
   <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -29,8 +30,9 @@
   <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.min.css">
   <!-- Custom -->
   <link rel="stylesheet" href="../dist/css/custom.css">
-  <link rel="stylesheet" href="../dist/css/alt/login.css">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../dist/css/alt/viewTicket.css">
 
 </head>
 
@@ -53,27 +55,39 @@
               <li class="nav-item ">
                 <a class="nav-link" href="#">Submit Ticket</a>
               </li>
-              
-              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Knowledge Base
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Billing </a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="login.html">login </a>
               </li>
             </ul>
           </div>
         </nav>
-        <div class="live-search">
-          <form class="input-group input-group-sm">
-            <input class="form-control form-control-navbar" type="search"
-              placeholder="Have a question? Ask or enter a search term." aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-navbar" type="submit">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
+        
           </form>
         </div>
       </div>
     </header>
+    <div class="content-header">
+      <div class="breadcrumb-top">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="category.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">ViewTicket</a></li> 
+        </ol>
+      </div>
+    </div>
     <!-- END Header -->
     <!-- Main Content Wrapper -->
     <div class="wrapper">
@@ -81,23 +95,18 @@
         <div class="row">
           <div class="col-sm-3">
                 <div class="hero-widget well well-sm">
-                  <a href="profile.html">
                       <div class="icon">
                            <i class="glyphicon glyphicon-user"></i>
                       </div>
-                    <div class="text">
+                      <div class="text">
                           <var><i class="fas fa-id-card"></i></var>
-                          <label class="text-muted">Register</label>
+                          <label class="text-muted">Register</a></label>
                       </div>
                       
                   </div>
           </div>
-        </a>
-          
-          
               <div class="col-sm-3">
-                  <div class="hero-widget well well-sm"><a
-                     href="SubmitTicket.html">
+                  <div class="hero-widget well well-sm">
                       <div class="icon">
                            <i class="glyphicon glyphicon-star"></i>
                       </div>
@@ -107,11 +116,9 @@
                       </div>
                      
                   </div>
-                </a>
           </div>
               <div class="col-sm-3">
                   <div class="hero-widget well well-sm">
-                    <a href="tick1.html">
                       <div class="icon">
                            <i class="glyphicon glyphicon-tags"></i>
                       </div>
@@ -119,27 +126,26 @@
                           <var><i class="fas fa-users"></i></var>
                           <label class="text-muted">My Ticket</label>
                       </div>
-                    
+                      
                   </div>
-                </a>
             </div>
               <div class="col-sm-3">
                   <div class="hero-widget well well-sm">
-                    <a href="knowledge.html">
                       <div class="icon">
                            <i class="glyphicon glyphicon-cog"></i>
                       </div>
                       <div class="text">
-                          <var class="gupu"><i class="fas fa-lightbulb"></i></var>
+                          <var><i class="fas fa-lightbulb"></i></var>
                           <label class="text-muted">Knowledge Base</label>
                       </div>
                      
                   </div>
-                </a>
           </div>
         </div>
       </div>
     </div>
+    <
+
         <!-- END Top Section -->
       
       
