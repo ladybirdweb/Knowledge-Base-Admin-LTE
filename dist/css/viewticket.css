@@ -1,7 +1,5 @@
 
-*{
-  margin: 10%;
-}.boxrow{
+.boxrow{
    padding: 3%;
    margin-left: 0%;
    display: flex;
