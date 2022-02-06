@@ -1,0 +1,57 @@
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+.pbtn{
+    color: white;
+    background-color: rgba(66,12,230,0.7430322470785189);
+    border-radius: 10%;
+    height: 30px;
+    font-size: small;
+}
+
+
+.loggedin{
+    
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0%;
+    
+}
+.info{
+    padding: 1%;
+}
+.tabhead{
+    font-size: 20px;
+}
+.tabdet{
+    font-size: 20px;
+}
+.userimage{
+    padding: 2%;
+}
+h3{
+  padding-top: 20%;  
+}
+.edit{
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    margin-left: 8%;
+    
+}
+.editbtn{
+    font-size: 15px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px;
+    height: 3em;
+    width: 8em;
+}

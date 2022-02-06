@@ -1,0 +1,116 @@
+
+*{
+  margin: 10%;
+}.boxrow{
+   padding: 3%;
+   margin-left: 0%;
+   display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    font-size: larger;
+    border: 3px solid grey;
+    align-items:flex-end;
+}
+td{
+    padding: 5%;
+    height: 100%;
+    width: 100vh;
+}
+tbody{
+  padding: 5%;
+  width: 100%;
+}
+
+.status{
+    color:green
+}
+.head{
+    color:rgb(0, 0, 0);
+    margin: 3%;
+}
+.viewticket{
+    /* border: 1px solid grey; */
+    padding: 5%;
+    box-shadow: 0px 5px 54px -12px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 5px 54px -12px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 5px 54px -12px rgba(0,0,0,0.7);
+}
+
+
+/* .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  } */
+  
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  .chatbox{
+     margin: 3%;
+      padding: 4%;
+      border: 5px solid grey;
+      
+  }
+  .col2{
+    margin-left: 10%;
+    padding-left: 0%;
+    height: 100%;
+  }
+  .col1{
+    padding-left: 0%;
+    height: 100%;
+  }
+  
+  .container {
+    padding: 0.8%;
+    display: flex;
+    flex-direction: column;
+  }
+  .darker{
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-left {
+    float: left;
+    color: #999;
+  }
+  .reply{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+  }
+  .replybutton{
+      margin: 1%;
+      padding: 0.5%;
+      border-radius: 10%;
+      width: 10%;
+      height: 50%;
+      font-size: larger;
+      color: white;
+      background-color: blueviolet;
+  }
+  .replybutton:hover{
+      background-color: rgb(60, 19, 126);
+  }
+  textarea{
+      border: 2px black solid;
+      padding: 1%;
+  }
+  
