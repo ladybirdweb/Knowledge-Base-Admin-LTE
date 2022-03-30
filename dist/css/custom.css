@@ -265,3 +265,28 @@ footer.main-f-footer {
   color: #909090;
 }
 /* END Footer */
+
+
+.widgets .btn {
+  height: 8vw;
+  width: 8vw;
+  background: rgb(85, 0, 255);
+  background: linear-gradient(90deg, rgba(66,12,230,0.7430322470785189) 100%, rgba(160,69,252,0.3452731434370623) 100%);
+  border-radius: 10%;
+  margin-bottom: 80%;
+
+}
+.widgets li{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: medium;
+  font-weight:200px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blueviolet;
+}
+.widgets .btn:hover{
+  background-color: #8a49f3;
+  box-shadow: 8px 6px 12px -3px rgba(97,85,85,0.37);
+-webkit-box-shadow: 8px 6px 12px -3px rgba(97,85,85,0.37);
+-moz-box-shadow: 8px 6px 12px -3px rgba(97,85,85,0.37);
+}

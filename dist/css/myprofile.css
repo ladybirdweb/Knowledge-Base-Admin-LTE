@@ -1,0 +1,98 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   align-items: center;
+   padding: 1%;
+}
+.myprofile{
+    padding: 2%;
+}
+.userimg{
+    display: flex;
+    flex-direction: column;
+
+}
+.heading{
+ 
+    width: 400px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 16.5px;
+    margin-right: 00px;
+}
+.details{
+    height: 50px;
+}
+.inputprofile{
+    margin: 2%;
+    width: 300px;
+    height: 40px;
+}
+.star{
+    color:red;
+    }
+.submit{
+    margin-left: 75% ;
+    font-size: 15px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px;
+    height: 3em;
+    width: 8em;
+}
+.submit:hover{
+    background-color: rgb(92, 44, 182);
+}
+.change{
+    margin-left: -20%;
+    font-size: 15px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.change:hover{
+    background-color: rgb(92, 44, 182);
+}
+#f9{
+    position: relative;
+    left: 3em;
+    width: 300px;
+    top: 0.8em;
+    height: 40px;
+}
+#f10{
+    position: relative;
+    left: 8em;
+    top: 0.8em;
+    width: 300px;
+    height: 40px;
+}
+#f11{
+    position: relative;
+    left: 13em;
+    top: 0.8em;
+    height: 40px;
+    width: 300px;
+}
+.changepass{
+    width: 8%;
+    margin-top: -5%;
+    margin-left: 45%;
+    padding: 1% ;
+    font-size: 15px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LogIn</title>
+  <title>MY TICKET</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -31,6 +31,11 @@
   <link rel="stylesheet" href="../dist/css/custom.css">
   <!--Login CSS-->
   <link rel="stylesheet" href="../dist/css/login.css">
+  <!--MyTickets CSS-->
+  <link rel="stylesheet" href="../dist/css/myticket.css">
+  <link rel="stylesheet" href="../dist/css/loggedin.css"
+  <!-- CSS only -->
+
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
@@ -41,7 +46,7 @@
     <header role="banner" class="site-header">
       <div class="container">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Helpdesk</a>
+          <a class="navbar-brand" href="./home.html"><img src="../dist/images/faveo.png"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,7 +56,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="./home.html">Home</a>
               </li>
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="./submitticket.html">Submit Ticket</a>
               </li>
               <li class="nav-item dropdown">
@@ -60,17 +65,24 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="./knowledgebase.html">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="./knowledgebase.html">Another action</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Billing </a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="./category.html">LogIn </a>
-              </li>
+            
+              <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								  aria-haspopup="true" aria-expanded="false">My Profile</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<img src="../dist/img/user8-128x128.jpg" style="border-radius: 50%; width: 100px; position: relative; left: 2em; padding: 5%;">
+                                    <p style="padding: 2%; font-weight: bold;font-size: 30px; margin-left: 33%;" >XYZ</p>
+                                    <div class="btns">
+                                    <a href="./loggedin.html"><button class="pbtn">My Profile</button></a>
+                                   <a href="../theme1/category.html"><button class="pbtn">Logout</button></a>
+                                    </div>
+									</div>
+                                    </li>
             </ul>
           </div>
         </nav>
@@ -96,7 +108,7 @@
           <div class="breadcrumb-top">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./home.html">Home</a></li>
-              <li class="breadcrumb-item"><a href="./category.html">Login</a></li>
+              <li class="breadcrumb-item"><a href="./myticket.html">My Ticket</a></li>
               <!-- <li class="breadcrumb-item"><a href="#">Article List </a></li>
               <li class="breadcrumb-item"><a href="#">Reports </a></li>
               <li class="breadcrumb-item active">Account Settings</li> -->
@@ -109,7 +121,7 @@
       <div class="container">
         <div class="d-flex justify-content-center">
           <div class="col-md-auto">
-            <a href="./register.html"> <button class="btn btn-primary" type="button"><i class="fas fa-user-plus fa-2x"></i>
+            <a href="./register.html"><button class="btn btn-primary" type="button"><i class="fas fa-user-plus fa-2x"></i>
             <p>REGISTER</p>
             </button></a>
           </div>
@@ -120,35 +132,106 @@
             <a href="./myticket.html"><button class="btn btn-primary" type="button"><i class="fas fa-ticket-alt fa-2x"></i><p>MY TICKETS</p></button></a>
           </div>
           <div class="col-md-auto">
-            <a href="./knowledgebase.html"><button class="btn btn-primary" type="button"><i class="fas fa-brain fa-2x"></i><p>KNOWLEDGE BASE</p></button></a>
+           <a href="./knowledgebase.html"><button class="btn btn-primary" type="button"><i class="fas fa-brain fa-2x"></i><p>KNOWLEDGE BASE</p></button></a>
           </div>
          </div>
-         
-         <div class="login">
-          <div class="box">
-             <h1>LogIn</h1>
-              <form>
-              <div>
-              <label>Username<sup class="star">*</sup>: </label><br>
-              <input type="text" placeholder="Enter username" required/>
-              </div>
-              <br>
-          <div>
-            <label>Password<sup class="star">*</sup>: </label><br>
-             <input type="password" placeholder="Enter Password" required/>
-              </div>
-              <div class="foot">
-                <div><a href="./forgot.html"><p>Forgot Password</p></a></div>
-                <address>Or</address>
-                <div><a href="./register.html"><p>New User?</p></a></div>
-              </div>
-          
-          <div>
-          <button>SUBMIT</button>
-          </div>
-          </form>
+        
+
+         <div class="mytickets">
+             <h2>TICKETS</h2>
+             
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Open <span class="badge badge-success">2</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Closed <span class="badge badge-danger">3</span></button>
+                </li>
+                
+               
+              </ul>
+              <div class="d-flex flex-column align-items-end search">
+                <input type="search" placeholder="Search Query">
              </div>
-           </div>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <table class="table">
+                        <thead class="thead table-dark table-striped">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Ticket ID</th>
+                            <th scope="col">SUBJECT</th>
+                            <th scope="col">REQUESTER</th>
+                            <th scope="col">STATUS</th>
+                            <th scope="col">Last Activity</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td><a href="./viewticket.html">#ABC-153</a></td>
+                            <td>Motog4plus battery got damaged</td>
+                            <td>Maddison SE</td>
+                            <td>Open</td>
+                            <td>January 29, 2020 01:14 pm</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td><a href="./viewticket.html">#XYZ-523</a></td>
+                            <td>Not Responding</td>
+                            <td>Hero</td>
+                            <td>Open</td>
+                            <td>January 29, 2020 01:14 pm</td>
+                          </tr>
+                         
+                        </tbody>
+                      </table>
+                </div>
+                <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <table class="table">
+                        <thead class="thead table-dark">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Ticket ID</th>
+                            <th scope="col">SUBJECT</th>
+                            <th scope="col">REQUESTER</th>
+                            <th scope="col">STATUS</th>
+                            <th scope="col">Last Activity</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td><a href="./viewticket.html">#ABC-1532</a></td>
+                            <td>CARD READER</td>
+                            <td>Maddison SE</td>
+                            <td>CLOSED</td>
+                            <td>January 29, 2020 01:14 pm</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>#XYT-52328</td>
+                            <td>CHARGER NOT WORKING</td>
+                            <td>ALEX</td>
+                            <td>CLOSED</td>
+                            <td>January 29, 2020 01:14 pm</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>#XYT-583</td>
+                            <td>SOFTWARE SUPPORT</td>
+                            <td>JHON</td>
+                            <td>CLOSED</td>
+                            <td>January 29, 2020 01:14 pm</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+               
+              </div>
+
+
         </div>
 
         
@@ -375,6 +458,8 @@
 
 
   </div>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <!-- ./wrapper -->
 
   <!-- jQuery -->

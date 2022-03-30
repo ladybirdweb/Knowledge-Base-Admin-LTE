@@ -1,0 +1,79 @@
+
+body{
+    background-color: rgb(255, 255, 255) ;
+}
+.register{
+    height: auto;
+    width: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 1px solid black;
+    margin: 5%;
+
+    padding: 5%;
+    margin-left: 20%;
+    box-shadow: 0px 5px 54px -12px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 5px 54px -12px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 5px 54px -12px rgba(0,0,0,0.7);
+    background-color: rgb(253, 253, 253);
+    border-radius: 12px;
+    border: 1px solid rgba(27, 61, 71, 0.125);
+}
+.register h1{
+    padding-bottom: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.register form{
+    padding: 5px 10px;
+}
+.register input{
+    width: 100%;
+    padding: 10px 15px;
+    height: 100%;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    height: 10%;
+    /* background: black; */
+}
+.register button{
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 20%;
+    padding: 5% ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    font-size: large;
+    background-color: blueviolet;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.register form div{
+    margin: 20px;
+}
+
+.register label{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.register button:hover{
+    background-color: rgb(92, 44, 182);
+}
+.register button:active{
+    background-color: rgb(60, 9, 243);
+}
+.user{
+    position: relative;
+    left: 33.3%;
+    color: rgb(71, 56, 112);
+}
+.star{
+    color:red;
+    }
