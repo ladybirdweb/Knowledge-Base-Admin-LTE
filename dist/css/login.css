@@ -4,7 +4,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     border: 1px solid black;
     margin: 5%;
 
@@ -22,7 +21,6 @@
     margin-top: 4%;
     margin-left: 10%;
     padding: 4% ;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    */
     font-size: large;
     background-color: blueviolet;
     border-radius: 15px;
@@ -45,7 +43,6 @@
     border-right: none;
     border-radius: 5px;
     height: 10%;
-    /* background: black; */
 }
 .login h1{
     padding-bottom: 5%;
